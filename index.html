@@ -65,6 +65,37 @@
       background: #404eed;
     }
 
+    .gallery {
+      padding: 40px 10px;
+      background: #181818;
+    }
+
+    .gallery h2 {
+      color: #00f7ff;
+      margin-bottom: 30px;
+    }
+
+    .images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .images img {
+      width: 300px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 0 10px #000;
+      transition: transform 0.3s;
+    }
+
+    .images img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #00f7ff;
+    }
+
     footer {
       margin-top: 50px;
       padding: 20px;
@@ -77,8 +108,14 @@
       header h1 {
         font-size: 2rem;
       }
+
       .highlight {
         font-size: 1.2rem;
+      }
+
+      .images img {
+        width: 90%;
+        height: auto;
       }
     }
   </style>
@@ -97,6 +134,16 @@
     <br><br>
 
     <a class="discord-btn" href="https://discord.com/invite/Ta8kbNh3tH" target="_blank">💬 Discord'a Katıl</a>
+  </div>
+
+  <div class="gallery">
+    <h2>🗡️ VS Anları - Knight Online</h2>
+    <div class="images">
+      <img src="https://i.imgur.com/DPYZxqb.jpg" alt="Knight VS 1" />
+      <img src="https://i.imgur.com/FYPJvXB.jpg" alt="Knight VS 2" />
+      <img src="https://i.imgur.com/OcyMIb9.jpg" alt="Knight VS 3" />
+      <img src="https://i.imgur.com/32ibHNE.jpg" alt="Knight VS 4" />
+    </div>
   </div>
 
   <footer>
